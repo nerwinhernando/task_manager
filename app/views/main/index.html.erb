@@ -1,1 +1,10 @@
-Hello IO!
+<h1>Task Manager</h1>
+<p>This is an application for managing a to do list. </p>
+
+<% tasks = ['Fold Laundry', 'Sweep porch', 'Wash dishes', 'Mow Lawn'] %>
+
+<ul>
+  <% tasks.each do |task| %>
+    <li><%= task %></li>
+  <% end %>
+</ul>

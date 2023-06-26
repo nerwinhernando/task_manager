@@ -3,7 +3,7 @@ class MainController < ApplicationController
   end
 
   def about
-
+    @created_by = 'nerwin'
   end
 
   def hello
