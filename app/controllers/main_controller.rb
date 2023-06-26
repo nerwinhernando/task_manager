@@ -1,5 +1,6 @@
 class MainController < ApplicationController
   def index
+    @tasks = ['Fold Laundry', 'Sweep porch', 'Wash dishes', 'Mow Lawn']
   end
 
   def about
